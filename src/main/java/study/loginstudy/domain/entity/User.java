@@ -22,8 +22,15 @@ public class User {
     private Long id;
 
     private String loginId;
+    private String name;
     private String password;
     private String nickname;
+    private int phoneNumber;
+    private int birthDate;
+    private String gender;
+    private String job;
+    private String home;
+    private String school;
 
     private UserRole role;
 

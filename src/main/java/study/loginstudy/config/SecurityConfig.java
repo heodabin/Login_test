@@ -42,7 +42,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .usernameParameter("loginId")
                 .passwordParameter("password")
                 .loginPage("/security-login/login")     // 로그인 페이지 URL
-                .defaultSuccessUrl("/security-login")   // 로그인 성공 시 이동할 URL
+                .defaultSuccessUrl("/security-login/")   // 로그인 성공 시 이동할 URL
                 .failureUrl("/security-login/login")    // 로그인 실패 시 이동할 URL
                 .and()
                 .logout()
